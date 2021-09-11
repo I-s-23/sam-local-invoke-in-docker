@@ -14,7 +14,7 @@ The application uses several AWS resources, including Lambda functions and an AP
 - sam local ivoke
 
   ```bash
-    sam build
+    sam build --use-container
     sam local invoke --container-host host.docker.internal
   ```
 
